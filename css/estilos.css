@@ -1,0 +1,30 @@
+
+ .nav-item {
+        margin-right: 20px;
+    }
+
+.active{
+    transition: all .4s;
+    font-size: 20px;
+}
+.active:hover{
+    border-radius: 5px;
+    transform: translateY(-10px);
+    box-shadow: 0 7px 0 -2px #f85959,
+     0 15px 0 -4px #39a2db,
+     0 16px 10px -3px #39a2db;
+}
+.card {
+    width: auto;
+    height: 400px;
+    border-radius: 30px;
+    background: lightgrey;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+  }
+  .phot {
+    border-radius: 50%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
