@@ -1,73 +1,37 @@
-body {
-
-
-    margin: 0;
-    min-height: 100vh;
-  background: #89A18F;
-background: radial-gradient(circle, rgba(137, 161, 143, 1) 0%, rgba(220, 250, 224, 1) 50%, rgba(220, 250, 224, 1) 100%);
+html {
+  scroll-behavior: smooth;
 }
-.card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 600px;          /* Ancho */
-  padding: 20px;         /* Espacio interno */
- background: #cee4ec;
-
-  border: 4px solid #ddd;
-
-}
-.p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #000000;
-    text-align: justify;
-}
-.contenedor {
-  display: flex;
-  width: 100%;
-  height: 100vh; /* toda la pantalla */
+body{
+  background: #2A2B2A;
+background: linear-gradient(90deg, rgba(42, 43, 42, 1) 0%, rgba(42, 43, 42, 1) 50%, rgba(42, 43, 42, 1) 100%);
 }
 
-.col {
-  width: 50%;
-  padding: 50px;
+.inicio{
+text-align: center;
+ justify-content: center; /* ⬆️⬇️ centra vertical */
+font-size: 78px;
+width: 100%;
+height: 80vh;
+background: #3E403E;
+padding-top: 120px;   /* ⬇️ baja el texto */
+background: linear-gradient(90deg, rgba(62, 64, 62, 1) 0%, rgba(62, 64, 62, 1) 50%, rgba(62, 64, 62, 1) 100%); 
 }
-
-.card_inicio {
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-  width: 600px;
-  
-  padding: 20px;
-
-  background-color: transparent;   /* Fondo sin color */
-  border: 3px solid #000;           /* Color del contorno */
-  border-radius: 12px;
-
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 80px;
-}
-/*encabezado*/
-.encabezado{
-  display: flex;
-  align-items: center;        /* centra verticalmente */
-  justify-content: flex-end;  /* 👉 mueve todo a la derecha */
- gap: 10px;
-
-  padding: 10px;
-  background: linear-gradient(135deg, #4e73df, #1cc88a);
-  color: white;
-  text-align: center;
-
-  text-align: right;
+.web{
+  color: black;
 
 }
-.encabezado h1{
-  margin: 0;
-  font-size: 28px;
+.developer{
+  background-color: #EBC50C;
+
 }
-.icono {
-  font-size: 30px;   /* 👈 aumenta el tamaño */
+.sobremi{
+
+  max-width: 800px;/* tamaño del card*/
+  margin: auto;
+  height: 80vh;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #f1f1f1;
 }
+
+
